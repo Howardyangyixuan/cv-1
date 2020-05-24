@@ -1,0 +1,95 @@
+#html {
+  word-break: break-all;
+}
+#div1 {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+  #div1 {
+    height: 50vh;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+  }
+}
+/* #div1 {
+  border: 1px solid red;
+  width: 40%;
+  height: 42%;
+}
+#div1 {
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+#div1 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+#div1::before {
+  content: "";
+  display: block;
+  border: 1px solid red;
+  position: absolute;
+}
+#div1::after {
+  content: "";
+  display: block;
+  border: 1px solid red;
+  position: absolute;
+}
+#div1::before {
+  width: 50%;
+  height: 50%;
+  border: 1px solid green;
+  left: 50%;
+  transform: translate(-50%);
+  background: white;
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: none;
+}
+#div1::after {
+  width: 50%;
+  height: 50%;
+  border: 1px solid red;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  background: black;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border: none;
+} */
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
